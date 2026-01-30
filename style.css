@@ -1,0 +1,80 @@
+body {
+    background: rgb(55, 104, 160);
+    color: rgb(82, 44, 94);
+    padding: 10px;
+    font-family: Arial, sans-serif
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(82, 44, 94);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 4px rgb(12, 173, 179) ridge;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(12, 173, 179);
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 173, 179);
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(12, 173, 179);
+    display: flex;
+    margin-top: 20px;
+    border: 4px rgb(82, 44, 94) ridge;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px rgb(82, 44, 94) ridge;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: rgb(10, 161, 167)
+}
+
+h2, h3 {
+    margin: 0px;
+    color: rgb(82, 44, 94);
+}
