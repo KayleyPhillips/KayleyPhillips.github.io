@@ -2,7 +2,7 @@ body {
     background: rgb(55, 104, 160);
     color: rgb(82, 44, 94);
     padding: 10px;
-    font-family: Arial, sans-serif
+    font-family: 'Times New Roman', Times, serif
 }
 
 #all-contents {
@@ -68,18 +68,16 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(82, 44, 94) ridge;
+    border: 4px rgb(55, 104, 160) ridge;
     padding: 8px;
     margin-top: 20px;
-    background-color: rgb(10, 161, 167)
+    background-color: rgb(12, 173, 179)
 }
 
 h2, h3 {
     margin: 0px;
     color: rgb(82, 44, 94);
 }
-
-
 
 /* Portfolio styles */
 .content h1 {
