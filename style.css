@@ -1,6 +1,6 @@
 body {
     background: rgb(55, 104, 160);
-    color: rgb(82, 44, 94);
+    color: rgb(12, 173, 179);
     padding: 10px;
     font-family: 'Times New Roman', Times, serif
 }
@@ -71,12 +71,17 @@ main {
     border: 4px rgb(55, 104, 160) ridge;
     padding: 8px;
     margin-top: 20px;
-    background-color: rgb(12, 173, 179)
+    background-color: rgb(82, 44, 94);
 }
 
-h2, h3 {
+h2, p {
     margin: 0px;
     color: rgb(82, 44, 94);
+}
+
+h3 {
+  margin: 0px;
+    color: rgb(12, 173, 179);
 }
 
 /* Portfolio styles */
