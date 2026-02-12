@@ -577,7 +577,7 @@ function drawCannons() {
     ctx.save(); //save the current translation of the screen.
     ctx.translate(cannons[i].x, cannons[i].y); //you are moving the top left of the screen to the pictures location, this is because you can't rotate the image, you have to rotate the whole page
     ctx.rotate((cannons[i].rotation * Math.PI) / 180); //then you rotate. rotation is centered on 0,0 on the canvas, which is why we moved the picture to 0,0 with translate(x,y)
-    ctx.drawImage(cannonImage, 0, 0, cannonWidth, cannonHeight); //you draw the image on the rotated canvas. as of this line, the picture is straight and the rest of the page is rotated
+    ctx.drawImage(cannonImage, 50, -70, cannonWidth, cannonHeight * 2); //you draw the image on the rotated canvas. as of this line, the picture is straight and the rest of the page is rotated
     //also the previous line uses -width / 2 so that the picture is centered. This will mean that (0,0) is at the exact center of the image
     ctx.translate(-cannons[i].x, -cannons[i].y); //the reverse of the previous translate, this moves the page back to the correct place so that the image is no longer at (0,0)
     ctx.restore(); //this unrotates the canvas so the canvas is straight, but now since you did that the picture looks rotated

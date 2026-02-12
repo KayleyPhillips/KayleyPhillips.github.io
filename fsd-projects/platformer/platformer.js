@@ -27,33 +27,37 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    toggleGrid();
+    // toggleGrid();
 
 
     // TODO 2 - Create Platforms
 createPlatform(325, 650, 50, 20, "purple");
 createPlatform(525, 520, 50, 20, "blue");
-createPlatform(325, 400, 50, 20, "teal");
+createPlatform(325, 400, 50, 20, "orange");
 createPlatform(620, 300, 50, 20, "purple");
 createPlatform(1025, 200, 50, 20, "purple");
 createPlatform(1125, 300, 50, 20, "blue");
-createPlatform(1025, 400, 50, 20, "teal");
+createPlatform(1025, 400, 50, 20, "orange");
 createPlatform(825, 500, 50, 20, "green");
 createPlatform (1225, 100, 50, 20, "green");
 createPlatform(1350, 200, 50, 20, "gold");
-createPlatform(700, 449, 20, 300, "pink");
+createPlatform(700, 400, 20, 200, "pink");
 createPlatform(1225, 149, 20, 200, "orange");
+createBadPlatform(225, 200, 50, 20, "orange");
+createBadPlatform(1225, 549, 50, 20, "pink");
+createBadPlatform(525, 100, 50, 20, "blue");
+createBadPlatform(100, 50, 50, 20, "purple")
 
     // TODO 3 - Create Collectables
-createCollectable("steve", 825, 459, .5, .7 );
-createCollectable("max", 625, 259, .5, .7);
-createCollectable("database", 1350, 159, .5, .7);
+createCollectable("minecraft", 825, 459);
+createCollectable("minecraft", 625, 259);
+createCollectable("minecraft", 1350, 159);
     
     // TODO 4 - Create Cannons
-createCannon("left", 225, 30000, 3000, 6000);
-createCannon("right", 500, 10000);
-createCannon("bottom", 400, 5000);
-createCannon("top", 1000, 5000);
+createCannon("left", 225, 30000, 1000, 1000);
+createCannon("right", 500, 10000, 50, 50);
+createCannon("bottom", 400, 5000, 50, 50);
+createCannon("top", 1000, 5000, 50, 50);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
